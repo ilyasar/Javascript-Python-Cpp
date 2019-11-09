@@ -1,0 +1,27 @@
+.menu {
+    text-align: center;
+    background-color: blue;
+    font-size: 1.8em;
+    border-radius: 1.8em;
+}
+.a {
+    text-decoration: none;
+    color: white;
+    padding:30px
+}
+.a:hover{
+    text-decoration: underline;
+    color: yellow;
+    border: 1.8em;
+}
+.form{
+    color: white;
+    background-color: blue;
+    margin: 0px;
+    padding: 0px;
+}
+.border{
+    border-style: solid;
+    margin-right: 39.5em;
+    text-align: center;
+}

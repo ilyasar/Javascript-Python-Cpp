@@ -1,0 +1,16 @@
+.menu {
+    text-align: center;
+    background-color: blue;
+    font-size: 1.8em;
+    border-radius: 1.8em;
+}
+.a {
+    text-decoration: none;
+    color: white;
+    padding:30px
+}
+.a:hover{
+    text-decoration: underline;
+    color: yellow;
+    border: 1.8em;
+}
