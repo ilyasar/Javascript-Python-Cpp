@@ -14,3 +14,20 @@
     color: yellow;
     border: 1.8em;
 }
+.description{
+    padding-right: 25em;
+}
+body {
+    background-image: url("c++.png");
+}
+.prog{
+    font-size: 1.5em;
+}
+.border{
+    border-style: solid;
+    margin-right: 14em;
+    text-align: center;
+    font-size: 1.5em;
+    background-color: blue;
+    color: white
+}
