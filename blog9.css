@@ -1,5 +1,6 @@
 body{
-    background-image: url("js.jpg");
+    background-image: url("blog1.jpg");
+
 }
 .menu {
     text-align: center;
@@ -17,14 +18,17 @@ body{
     color: yellow;
     border: 1.8em;
 }
-.prog{
-    font-size: 1.5em;
-}
-.border{
-    border-style: solid;
-    margin-right: 14em;
+h1 {
     text-align: center;
-    font-size: 1.5em;
-    background-color: blue;
-    color: white
+}
+.blog {
+    padding-left: 3em;
+    padding-right: 3em;
+    background-color: wheat;
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+}
+.text{
+    font-size: 1.3em;
 }
