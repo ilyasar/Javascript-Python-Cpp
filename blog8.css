@@ -18,18 +18,17 @@ body{
     color: yellow;
     border: 1.8em;
 }
-.blog-start{
-    font-size: 1.5em;
-    background-color: yellow;
-    padding: 0px;
+h1 {
+    text-align: center;
+}
+.blog {
+    padding-left: 3em;
+    padding-right: 3em;
+    background-color: wheat;
     margin: 0px;
-}
-.title{
-    background-color: white;
+    padding: 0px;
     text-align: center;
 }
-.verstka{
-    background-color: blue;
-    color: wheat;
-    text-align: center;
+.text{
+    font-size: 1.3em;
 }
