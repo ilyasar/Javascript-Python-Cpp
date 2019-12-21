@@ -1,0 +1,40 @@
+body{
+    background-image: url("blog1.jpg");
+
+}
+.menu {
+    text-align: center;
+    background-color: blue;
+    font-size: 1.8em;
+    border-radius: 1.8em;
+}
+.a {
+    text-decoration: none;
+    color: white;
+    padding:30px
+}
+.a:hover{
+    text-decoration: underline;
+    color: yellow;
+    border: 1.8em;
+}
+.blog-start{
+    font-size: 1.5em;
+    background-color: yellow;
+    padding: 0px;
+    margin: 0px;
+}
+.title{
+    background-color: white;
+    text-align: center;
+}
+.verstka{
+    background-color: blue;
+    color: wheat;
+    text-align: center ;
+}
+.Vse{
+    background-color: blue;
+    color: wheat;
+    text-align: center ;
+}

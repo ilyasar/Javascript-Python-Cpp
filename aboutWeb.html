@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="web.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <title>Web-дизайн</title>
 </head>
 <body>
@@ -69,6 +70,44 @@
                 Вот что нам вывела программа после выполнения команды 
             </p>
         </div>
+    </div>
+    <h2>
+        Как подключить шрифты для сайта?
+    </h2>
+    <p>Заходим на сайт <a href="https://fonts.google.com">fonts.google.com </a>и выбираем понравившийся вам шрифт. Чтобы его выбрать, вам нужно 
+    нажать на плюсик в верхнем правом углу. </p>
+    <img src="web_fonts.png" width="1000">
+    <div class="border">
+        <p>Вот они, плюсики! Нажмите на него, чтобы выбрать понравившийся вам шрифт</p>
+    </div>
+    <p>
+        Выбираем один шрифт, затем создаем html документ(как это делать смотрите выше) и css файл делаем также как и в html, только формат css. В нем пишем:
+    </p>
+    <pre>
+        &lt;!DOCTYPE html&gt;
+        &lt;html&gt;
+            &lt;head&gt;
+                &lt;link rel="stylesheet" href="название css файла.css"&gt;
+            &lt;/head&gt;
+            &lt;body&gt;
+                &lt;h1&gt;Hello!&lt;/h1&gt;
+            &lt;/body&gt;
+        &lt;/html&gt;
+    </pre>
+    <p>
+        Дальше нажимаем на вкладку на сайте fonts.google.com. Она называется 1 family selected и находится в нижнем правом углу. Нажмите на нее.
+    </p>
+    <img src="web_fonts_2.png" width="1000">
+    <p>Первый текст копируем в тег head, а в файле css пишем: </p>
+    <pre>
+h1{
+
+}
+    </pre>
+    <p>Второй текст вставляем в css</p>
+    <img src="web_fonts_3.png" width="1000">
+    <div class="border">
+        <p>Смотрите, какой красивый шрифт я подключил!</p>
     </div>
 </body>
 </html>
